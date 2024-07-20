@@ -24,3 +24,19 @@ do
 done < "packages-to-remove.txt"
 
 printf "\n""Packages removed successfully!"
+
+# Add repositories (finish)
+printf "\n""Adding repositories...""\n"
+
+while read package
+do
+   apt-add-repository deb
+done < "repositories.txt"
+
+printf "\n""Installing packages...""\n"
+
+while read package
+do
+    apt update
+    apt install --ignore-missing -y "$package"
+done < "packages-to-install.txt"
