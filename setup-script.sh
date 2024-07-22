@@ -47,3 +47,7 @@ do
 done < "packages-to-install.txt"
 
 printf "\n""Packages installed successfully!""\n"
+
+
+# Open deb package collection for download
+firefox --new-window 'https://1drv.ms/f/s!AqNFlXpJdUbpj9E6XpwCcyNzxeN-Qg?e=wX2EE0'
