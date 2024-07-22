@@ -1,5 +1,5 @@
 audacity
-conky
+conky-all
 crossover
 discord
 filezilla
