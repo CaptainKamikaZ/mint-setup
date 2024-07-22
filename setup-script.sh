@@ -46,4 +46,4 @@ do
     apt install --ignore-missing -y "$package"
 done < "packages-to-install.txt"
 
-printf "\n""Packages installed successfully!"
+printf "\n""Packages installed successfully!""\n"
