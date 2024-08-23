@@ -35,6 +35,7 @@ remmina
 steam
 thunderbird
 tldr
+v4l-utils
 variety
 video-downloader
 vim
